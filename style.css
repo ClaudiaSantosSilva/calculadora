@@ -1,0 +1,16 @@
+/*.escolha-operacao{
+    display:flex;
+    flex-flow:column wrap;
+}*/
+
+input{
+    display:inline-block;
+}
+.operacao{
+    display:flex;
+    flex-flow:column wrap;
+}
+.soma{
+    display:flex;
+    flex-direction: row;
+}
