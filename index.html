@@ -13,25 +13,30 @@
         <label for="segundo-numero">Número 2:</label>
         <input type="text" id="segundo-numero">
         
-        <div class="operacao">
+        <div id="operacao">
             <div class="soma">
         <input type="radio" name="escolha-soma" class="escolha-operacao">
         <label for="escolha-soma">Soma</label>
             </div>
-            <div class="subtracao">
+            <div id="subtracao">
         <input type="radio" name="escolha-subtracao" class="escolha-operacao">
         <label for="escolha-subtracao">Subtração</label>
             </div>
-            <div class="multiplicacao">
+            <div id="multiplicacao">
         <input type="radio" name="escolha-multiplicacao" class="escolha-operacao">
         <label for="escolha-multiplicacao">Multiplicação</label>
             </div>
-            <div class="divisao">
+            <div id="divisao">
         <input type="radio" name="escolha-divisao" class="escolha-operacao">
         <label for="escolha-divisao">Divisão</label>
             </div>
         </div>
+        <input type="submit" value="Calcular" id="form-botao-calcular">
+        <div id = "resposta">
+            <span>Resposta:</span>
+        </div>
         </form>
+        
         
         <script src="script.js"></script>
     </body>

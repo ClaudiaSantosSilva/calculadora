@@ -1,16 +1,24 @@
-/*.escolha-operacao{
-    display:flex;
-    flex-flow:column wrap;
-}*/
-
 input{
     display:inline-block;
 }
-.operacao{
+
+#operacao{
     display:flex;
     flex-flow:column wrap;
+    margin:15px 0 15px 0;
 }
+
 .soma{
     display:flex;
     flex-direction: row;
+}
+
+#resposta{
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#form-botao-calcular{
+    cursor:pointer;
+
 }
