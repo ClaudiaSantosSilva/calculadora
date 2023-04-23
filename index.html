@@ -7,35 +7,36 @@
     </head>
     <body>
         <h1>Calculadora com JavaScript</h1>
-        <form class="calculadora" method="post">
+        <div class="calculadora">
         <label for="primeiro-numero">Número 1:</label>
         <input type="text" id="primeiro-numero">
         <label for="segundo-numero">Número 2:</label>
         <input type="text" id="segundo-numero">
         
-        <div id="operacao">
+        <div id="operacao" class="operacao">
             <div class="soma">
-        <input type="radio" name="escolha-operacao" class="escolha-soma">
+        <input type="radio" name="escolha-operacao" id="escolha-soma" class="escolha-soma">
         <label for="escolha-soma">Soma</label>
             </div>
             <div id="subtracao">
-        <input type="radio" name="escolha-operacao" class="escolha-subtracao">
+        <input type="radio" name="escolha-operacao" id="escolha-subtracao" class="escolha-subtracao">
         <label for="escolha-subtracao">Subtração</label>
             </div>
             <div id="multiplicacao">
-        <input type="radio" name="escolha-operacao" class="escolha-multiplicacao">
+        <input type="radio" name="escolha-operacao" id="escolha-multiplicacao" class="escolha-multiplicacao">
         <label for="escolha-multiplicacao">Multiplicação</label>
             </div>
             <div id="divisao">
-        <input type="radio" name="escolha-operacao" class="escolha-divisao">
+        <input type="radio" name="escolha-operacao" id="escolha-divisao" class="escolha-divisao">
         <label for="escolha-divisao">Divisão</label>
             </div>
         </div>
-        <input type="submit" value="Calcular" id="form-botao-calcular">
-        <div id = "resposta">
+        <button id="form-botao-calcular">Calcular</button>
+
+        <div id = "resposta" class="resposta">
             <span>Resposta:</span>
         </div>
-        </form>
+        </div>
         
         
         <script src="script.js"></script>
